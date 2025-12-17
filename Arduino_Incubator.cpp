@@ -21,8 +21,6 @@ int alarm_pin = 4;
 
 const unsigned long interval = 60000;  //intervals of turning the egg which is 10800000  milliseconds (3 hours)
 unsigned long prev_time = 0;
-typedef int my_special_int;
-my_special_int deceive = 1;
 
 void Print_temp_and_humd_values_to_lcd() {
   //print temperature and humidity to lcd
